@@ -1,0 +1,48 @@
+.square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: blanchedalmond;
+    margin: 1.66%;
+    border-radius: 10%;
+    transition: background 0.7s;
+}
+
+.container {
+    max-width: 600px;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.selected {
+    background-color: tomato;
+}
+
+button{
+    background-color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    height: 100%;
+    outline: none;
+    border: none;
+    transition: all 0.4s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+  }
+
+  button:hover{
+    color: white;
+    background: rgb(19, 23, 26)
+  }
+
+  #message{
+    display: inline-block;
+    width: 15%
+  }
